@@ -831,7 +831,8 @@ def main(_):
       "mnli": MnliProcessor,
       "mrpc": MrpcProcessor,
       "xnli": XnliProcessor,
-      "sst2": Sst2Processor
+      "sst2": Sst2Processor,
+      "sp": Sst2Processor
   }
 
   tokenization.validate_case_matches_checkpoint(FLAGS.do_lower_case,
